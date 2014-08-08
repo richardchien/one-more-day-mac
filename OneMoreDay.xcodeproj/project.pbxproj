@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7954CEA81994D53E00D2AA43 /* GoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEA71994D53E00D2AA43 /* GoBtn.png */; };
+		79CB8C381994D46600581FB2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB8C371994D46600581FB2 /* main.swift */; };
+		79CB8C3A1994D46600581FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB8C391994D46600581FB2 /* ViewController.swift */; };
+		79CB8C3C1994D46600581FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB8C3B1994D46600581FB2 /* AppDelegate.swift */; };
+		79CB8C3E1994D46600581FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CB8C3D1994D46600581FB2 /* Images.xcassets */; };
+		79CB8C4D1994D46600581FB2 /* OneMoreDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB8C4C1994D46600581FB2 /* OneMoreDayTests.swift */; };
+		79CE725C1994F09000A5353F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CE725B1994F09000A5353F /* Main.storyboard */; };
+		79F837761994D503001B9990 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F837751994D503001B9990 /* NotificationCenter.framework */; };
+		79F8377F1994D503001B9990 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F8377E1994D503001B9990 /* TodayViewController.swift */; };
+		79F837811994D503001B9990 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F837801994D503001B9990 /* TodayViewController.xib */; };
+		79F837841994D503001B9990 /* OneMoreDayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 79F837731994D503001B9990 /* OneMoreDayWidget.appex */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79CB8C471994D46600581FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79CB8C2A1994D46600581FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CB8C311994D46600581FB2;
+			remoteInfo = OneMoreDay;
+		};
+		79F837821994D503001B9990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79CB8C2A1994D46600581FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F837721994D503001B9990;
+			remoteInfo = OneMoreDayWidget;
+		};
+		79F837851994D503001B9990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79CB8C2A1994D46600581FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F837721994D503001B9990;
+			remoteInfo = OneMoreDayWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79F8378A1994D503001B9990 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79F837841994D503001B9990 /* OneMoreDayWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7954CEA71994D53E00D2AA43 /* GoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoBtn.png; sourceTree = "<group>"; };
+		7954CEA91994DF4900D2AA43 /* OneMoreDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OneMoreDay.entitlements; sourceTree = "<group>"; };
+		79CB8C321994D46600581FB2 /* OneMoreDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneMoreDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CB8C361994D46600581FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CB8C371994D46600581FB2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		79CB8C391994D46600581FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79CB8C3B1994D46600581FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79CB8C3D1994D46600581FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79CB8C461994D46600581FB2 /* OneMoreDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneMoreDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CB8C4B1994D46600581FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CB8C4C1994D46600581FB2 /* OneMoreDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMoreDayTests.swift; sourceTree = "<group>"; };
+		79CE725B1994F09000A5353F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		79F837731994D503001B9990 /* OneMoreDayWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneMoreDayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F837751994D503001B9990 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		79F837791994D503001B9990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F8377A1994D503001B9990 /* OneMoreDayWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OneMoreDayWidget.entitlements; sourceTree = "<group>"; };
+		79F8377E1994D503001B9990 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		79F837801994D503001B9990 /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CB8C2F1994D46600581FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CB8C431994D46600581FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F837701994D503001B9990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F837761994D503001B9990 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79CB8C291994D46600581FB2 = {
+			isa = PBXGroup;
+			children = (
+				79CB8C341994D46600581FB2 /* OneMoreDay */,
+				79F837771994D503001B9990 /* OneMoreDayWidget */,
+				79CB8C491994D46600581FB2 /* OneMoreDayTests */,
+				79F837741994D503001B9990 /* Frameworks */,
+				79CB8C331994D46600581FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CB8C331994D46600581FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CB8C321994D46600581FB2 /* OneMoreDay.app */,
+				79CB8C461994D46600581FB2 /* OneMoreDayTests.xctest */,
+				79F837731994D503001B9990 /* OneMoreDayWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CB8C341994D46600581FB2 /* OneMoreDay */ = {
+			isa = PBXGroup;
+			children = (
+				79CB8C391994D46600581FB2 /* ViewController.swift */,
+				79CB8C3B1994D46600581FB2 /* AppDelegate.swift */,
+				79CE725B1994F09000A5353F /* Main.storyboard */,
+				79CB8C351994D46600581FB2 /* Supporting Files */,
+			);
+			path = OneMoreDay;
+			sourceTree = "<group>";
+		};
+		79CB8C351994D46600581FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7954CEA91994DF4900D2AA43 /* OneMoreDay.entitlements */,
+				79CB8C3D1994D46600581FB2 /* Images.xcassets */,
+				79CB8C361994D46600581FB2 /* Info.plist */,
+				79CB8C371994D46600581FB2 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79CB8C491994D46600581FB2 /* OneMoreDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				79CB8C4C1994D46600581FB2 /* OneMoreDayTests.swift */,
+				79CB8C4A1994D46600581FB2 /* Supporting Files */,
+			);
+			path = OneMoreDayTests;
+			sourceTree = "<group>";
+		};
+		79CB8C4A1994D46600581FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CB8C4B1994D46600581FB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F837741994D503001B9990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F837751994D503001B9990 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F837771994D503001B9990 /* OneMoreDayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				79F8377E1994D503001B9990 /* TodayViewController.swift */,
+				79F837801994D503001B9990 /* TodayViewController.xib */,
+				79F837781994D503001B9990 /* Supporting Files */,
+			);
+			path = OneMoreDayWidget;
+			sourceTree = "<group>";
+		};
+		79F837781994D503001B9990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7954CEA71994D53E00D2AA43 /* GoBtn.png */,
+				79F837791994D503001B9990 /* Info.plist */,
+				79F8377A1994D503001B9990 /* OneMoreDayWidget.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79CB8C311994D46600581FB2 /* OneMoreDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CB8C501994D46600581FB2 /* Build configuration list for PBXNativeTarget "OneMoreDay" */;
+			buildPhases = (
+				79CB8C2E1994D46600581FB2 /* Sources */,
+				79CB8C2F1994D46600581FB2 /* Frameworks */,
+				79CB8C301994D46600581FB2 /* Resources */,
+				79F8378A1994D503001B9990 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F837831994D503001B9990 /* PBXTargetDependency */,
+				79F837861994D503001B9990 /* PBXTargetDependency */,
+			);
+			name = OneMoreDay;
+			productName = OneMoreDay;
+			productReference = 79CB8C321994D46600581FB2 /* OneMoreDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79CB8C451994D46600581FB2 /* OneMoreDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CB8C531994D46600581FB2 /* Build configuration list for PBXNativeTarget "OneMoreDayTests" */;
+			buildPhases = (
+				79CB8C421994D46600581FB2 /* Sources */,
+				79CB8C431994D46600581FB2 /* Frameworks */,
+				79CB8C441994D46600581FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79CB8C481994D46600581FB2 /* PBXTargetDependency */,
+			);
+			name = OneMoreDayTests;
+			productName = OneMoreDayTests;
+			productReference = 79CB8C461994D46600581FB2 /* OneMoreDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79F837721994D503001B9990 /* OneMoreDayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F837871994D503001B9990 /* Build configuration list for PBXNativeTarget "OneMoreDayWidget" */;
+			buildPhases = (
+				79F8376F1994D503001B9990 /* Sources */,
+				79F837701994D503001B9990 /* Frameworks */,
+				79F837711994D503001B9990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneMoreDayWidget;
+			productName = OneMoreDayWidget;
+			productReference = 79F837731994D503001B9990 /* OneMoreDayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CB8C2A1994D46600581FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Richard Chien";
+				TargetAttributes = {
+					79CB8C311994D46600581FB2 = {
+						CreatedOnToolsVersion = 6.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
+					};
+					79CB8C451994D46600581FB2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 79CB8C311994D46600581FB2;
+					};
+					79F837721994D503001B9990 = {
+						CreatedOnToolsVersion = 6.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 79CB8C2D1994D46600581FB2 /* Build configuration list for PBXProject "OneMoreDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 79CB8C291994D46600581FB2;
+			productRefGroup = 79CB8C331994D46600581FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CB8C311994D46600581FB2 /* OneMoreDay */,
+				79CB8C451994D46600581FB2 /* OneMoreDayTests */,
+				79F837721994D503001B9990 /* OneMoreDayWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79CB8C301994D46600581FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CB8C3E1994D46600581FB2 /* Images.xcassets in Resources */,
+				79CE725C1994F09000A5353F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CB8C441994D46600581FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F837711994D503001B9990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F837811994D503001B9990 /* TodayViewController.xib in Resources */,
+				7954CEA81994D53E00D2AA43 /* GoBtn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CB8C2E1994D46600581FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CB8C3C1994D46600581FB2 /* AppDelegate.swift in Sources */,
+				79CB8C3A1994D46600581FB2 /* ViewController.swift in Sources */,
+				79CB8C381994D46600581FB2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CB8C421994D46600581FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CB8C4D1994D46600581FB2 /* OneMoreDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F8376F1994D503001B9990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F8377F1994D503001B9990 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79CB8C481994D46600581FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79CB8C311994D46600581FB2 /* OneMoreDay */;
+			targetProxy = 79CB8C471994D46600581FB2 /* PBXContainerItemProxy */;
+		};
+		79F837831994D503001B9990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F837721994D503001B9990 /* OneMoreDayWidget */;
+			targetProxy = 79F837821994D503001B9990 /* PBXContainerItemProxy */;
+		};
+		79F837861994D503001B9990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F837721994D503001B9990 /* OneMoreDayWidget */;
+			targetProxy = 79F837851994D503001B9990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79CB8C4E1994D46600581FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79CB8C4F1994D46600581FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79CB8C511994D46600581FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneMoreDay/OneMoreDay.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OneMoreDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79CB8C521994D46600581FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneMoreDay/OneMoreDay.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OneMoreDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79CB8C541994D46600581FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneMoreDay.app/Contents/MacOS/OneMoreDay";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneMoreDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		79CB8C551994D46600581FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneMoreDay.app/Contents/MacOS/OneMoreDay";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneMoreDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		79F837881994D503001B9990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneMoreDayWidget/OneMoreDayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneMoreDayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79F837891994D503001B9990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneMoreDayWidget/OneMoreDayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OneMoreDayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CB8C2D1994D46600581FB2 /* Build configuration list for PBXProject "OneMoreDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CB8C4E1994D46600581FB2 /* Debug */,
+				79CB8C4F1994D46600581FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CB8C501994D46600581FB2 /* Build configuration list for PBXNativeTarget "OneMoreDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CB8C511994D46600581FB2 /* Debug */,
+				79CB8C521994D46600581FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CB8C531994D46600581FB2 /* Build configuration list for PBXNativeTarget "OneMoreDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CB8C541994D46600581FB2 /* Debug */,
+				79CB8C551994D46600581FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F837871994D503001B9990 /* Build configuration list for PBXNativeTarget "OneMoreDayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F837881994D503001B9990 /* Debug */,
+				79F837891994D503001B9990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79CB8C2A1994D46600581FB2 /* Project object */;
+}
