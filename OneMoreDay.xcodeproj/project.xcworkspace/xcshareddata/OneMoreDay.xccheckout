@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>87AC4719-CFA9-4151-8E75-FFB86D7CC70F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OneMoreDay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1EDFCF5206CBA018BEA0144FBF36FE11A07000AD</key>
+		<string>github.com:richardchien/one-more-day-mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OneMoreDay.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1EDFCF5206CBA018BEA0144FBF36FE11A07000AD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:richardchien/one-more-day-mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1EDFCF5206CBA018BEA0144FBF36FE11A07000AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1EDFCF5206CBA018BEA0144FBF36FE11A07000AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OneMoreDayMac</string>
+		</dict>
+	</array>
+</dict>
+</plist>
