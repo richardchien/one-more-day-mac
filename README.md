@@ -1,9 +1,9 @@
 One More Day for OS X
-============
+=========
 
-This is an OS X app that helps you form habits.
+This is an OS X app that helps you form habits, including containing app and app extension.
 
-It's written in Swift, including containing app and app extension, require at least OS X v10.10.
+OS X v10.10 or newer is required.
 
 ###License
 
